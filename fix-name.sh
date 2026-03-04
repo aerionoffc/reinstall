@@ -1,0 +1,115 @@
+#!/bin/bash
+set -e
+
+clear
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+CYAN='\033[0;36m'
+MAGENTA='\033[0;35m'
+NC='\033[0m'
+
+SECRET_KEY="rowens"
+
+read -rsp "Enter the key: " input_key
+echo
+if [ "$input_key" != "$SECRET_KEY" ]; then
+  echo -e "${RED}Invalid key. Access denied.${NC}"
+  exit 1
+fi
+
+echo -e "${CYAN}Select Windows Version:${NC}"
+echo "1) Windows 10"
+echo "2) Windows 11"
+echo "3) Windows 10 Pro Ghost Spectre"
+echo "4) Windows 11 Pro Ghost Spectre"
+echo "5) Windows Server 2012"
+echo "6) Windows Server 2016"
+echo "7) Windows Server 2019"
+echo "8) Windows Server 2022"
+echo "9) Windows Server 2025"
+
+read -rp "Pilih (1-9): " pilihan
+
+LANG="en-us"
+RDP_PORT="3389"
+WEB_PORT="2080"
+SSH_PORT="22"
+
+case $pilihan in
+  1)
+    IMG_NAME="Windows 10 Pro"
+    ISO_URL="ISI_LINK_ISO_WINDOWS_10_DI_SINI"
+    ;;
+  2)
+    IMG_NAME="Windows 11 Pro"
+    ISO_URL="ISI_LINK_ISO_WINDOWS_11_DI_SINI"
+    ;;
+  3)
+    IMG_NAME="Windows 10 Pro"
+    ISO_URL="ISI_LINK_ISO_GHOST_SPECTRE_WIN10_DI_SINI"
+    ;;
+  4)
+    IMG_NAME="Windows 11 Pro"
+    ISO_URL="ISI_LINK_ISO_GHOST_SPECTRE_WIN11_DI_SINI"
+    ;;
+  5)
+    IMG_NAME="Windows Server 2012"
+    ISO_URL="ISI_LINK_ISO_SERVER_2012_DI_SINI"
+    ;;
+  6)
+    IMG_NAME="Windows Server 2016"
+    ISO_URL="ISI_LINK_ISO_SERVER_2016_DI_SINI"
+    ;;
+  7)
+    IMG_NAME="Windows Server 2019"
+    ISO_URL="ISI_LINK_ISO_SERVER_2019_DI_SINI"
+    ;;
+  8)
+    IMG_NAME="Windows Server 2022"
+    ISO_URL="ISI_LINK_ISO_SERVER_2022_DI_SINI"
+    ;;
+  9)
+    IMG_NAME="Windows Server 2025"
+    ISO_URL="ISI_LINK_ISO_SERVER_2025_DI_SINI"
+    ;;
+  *)
+    echo -e "${RED}Pilihan tidak valid!${NC}"
+    exit 1
+    ;;
+esac
+
+if [ -z "$ISO_URL" ]; then
+  echo -e "${RED}ISO URL belum diisi di script!${NC}"
+  exit 1
+fi
+
+read -rp "Set password sendiri? (y/N): " setpass
+if [[ "$setpass" =~ ^[Yy]$ ]]; then
+  read -rsp "Masukkan password Administrator: " PASSWORD
+  echo
+else
+  PASSWORD="Admin@123!"
+fi
+
+echo -e "${RED}WARNING: Semua data akan terhapus.${NC}"
+read -rp "Ketik YES untuk lanjut: " confirm
+if [ "$confirm" != "YES" ]; then
+  echo "Batal."
+  exit 0
+fi
+
+# Download reinstall.sh
+curl -fsSL -o reinstall.sh https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh || \
+wget -O reinstall.sh https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh
+chmod +x reinstall.sh
+
+# Run ISO installer mode
+bash reinstall.sh windows \
+  --image-name "$IMG_NAME" \
+  --lang "$LANG" \
+  --iso "$ISO_URL" \
+  --rdp-port "$RDP_PORT" \
+  --web-port "$WEB_PORT" \
+  --password "$PASSWORD"
