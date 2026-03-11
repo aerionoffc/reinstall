@@ -10,7 +10,7 @@ CYAN='\033[0;36m'
 MAGENTA='\033[0;35m'
 NC='\033[0m'
 
-SECRET_KEY="rowens"
+SECRET_KEY="nazwa"
 
 read -rsp "Enter the key: " input_key
 echo
@@ -64,7 +64,7 @@ case $pilihan in
     ;;
   7)
     IMG_NAME="Windows Server 2019"
-    ISO_URL="ISI_LINK_ISO_SERVER_2019_DI_SINI"
+    ISO_URL="https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US"
     ;;
   8)
     IMG_NAME="Windows Server 2022"
