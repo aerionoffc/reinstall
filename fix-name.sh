@@ -33,9 +33,8 @@ echo "9) Windows Server 2025"
 read -rp "Pilih (1-9): " pilihan
 
 LANG="en-us"
-RDP_PORT="3389"
+RDP_PORT="9999"
 WEB_PORT="2080"
-SSH_PORT="22"
 
 case $pilihan in
   1)
