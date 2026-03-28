@@ -89,7 +89,7 @@ if [[ "$setpass" =~ ^[Yy]$ ]]; then
   read -rsp "Masukkan password Administrator: " PASSWORD
   echo
 else
-  PASSWORD="Admin@123!"
+  PASSWORD="SKYNEST#123"
 fi
 
 echo -e "${RED}WARNING: Semua data akan terhapus.${NC}"
