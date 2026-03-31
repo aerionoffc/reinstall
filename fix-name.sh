@@ -59,7 +59,7 @@ case $pilihan in
     ;;
   6)
     IMG_NAME="Windows Server 2016"
-    ISO_URL="ISI_LINK_ISO_SERVER_2016_DI_SINI"
+    ISO_URL="https://go.microsoft.com/fwlink/p/?LinkID=2195174&clcid=0x409&culture=en-us&country=US"
     ;;
   7)
     IMG_NAME="Windows Server 2019 SERVERSTANDARD"
