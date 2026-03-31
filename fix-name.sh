@@ -67,7 +67,7 @@ case $pilihan in
     ;;
   8)
     IMG_NAME="Windows Server 2022"
-    ISO_URL="ISI_LINK_ISO_SERVER_2022_DI_fSINI"
+    ISO_URL="https://pastabillites.to/d/mqkzecgxo6ll?v=x5uwEViWLbfbwx3xBRf7V8hoDqvL9IZt9xOF7xYlpk9Vbe6Kh69MQFrufZ2T0Yuv9aD7MVM1U3ER_ew3cBlk0yV_tGjNUvbFC3QoEkJAAejcbjVr0hMkRv5VaDZpGCa5ua8YMTCjnznK4ElTc0PyYMEyptSaDvqOuLuSA-nuoG35sebOHHh2S2A5QSfTMbLTiyG0KNU45s8Wpwb9lHaTHvyd5NJgOkbpaF-iGFudaZCKiDQM-wJag2fb5AzD7vD8XhLY-Rs0LKWqBRXyAM05cZUr7zNE"
     ;;
   9)
     IMG_NAME="Windows Server 2025 SERVERSTANDARD"
