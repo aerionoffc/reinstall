@@ -24,7 +24,6 @@ echo "1) Windows 10"
 echo "2) Windows 11"
 echo "3) Windows 10 Pro Ghost Spectre"
 echo "4) Windows 11 Pro Ghost Spectre"
-echo "5) Windows Server 2012"
 echo "6) Windows Server 2016"
 echo "7) Windows Server 2019"
 echo "8) Windows Server 2022"
@@ -46,30 +45,26 @@ case $pilihan in
     ISO_URL="https://software.download.prss.microsoft.com/dbazure/Win11_25H2_English_x64_v2.iso?t=2b7442b3-845c-42f6-b2f5-c6fdaeb1b6cc&P1=1774962652&P2=601&P3=2&P4=lC6XE5Jx4f%2fI0h49hHjViR56DfnNggOm7ofiHL6I1PliMghX%2bOmI%2fjaLymvI02tIPMfwGaC0M5tE39NvddVIJD0mcSnvufrlbM650Q6z0pxxykZxVivENOLpdJ0AvO1v5IiVFX9Y2qQ0aBv43lY5iklc6t9NNhTKvD4lgWy7hrpuJKpAPJuLX7xQ3cGSXbJ2vMMwOugQwpZtK50GcIcsUCLTAxY60zuLEIvFhZbIY56lftTDZPRuepFss9W9D9B8D1lYdzkUr5nfdnnz%2fOl%2ficSKsfFK4ZcFoJSGF9ZHDG%2fRQfBkA0ln%2fRUIJCjDm3cD4rt9h59iwLVPudXhPrfeGA%3d%3d"
     ;;
   3)
-    IMG_NAME="Windows 10 Pro"
+    IMG_NAME="Windows 10 Pro Ghost Soectre"
     ISO_URL="ISI_LINK_ISO_GHOST_SPECTRE_WIN10_DI_SINI"
     ;;
   4)
-    IMG_NAME="Windows 11 Pro"
+    IMG_NAME="Windows 11 Pro Ghost Spectre"
     ISO_URL="ISI_LINK_ISO_GHOST_SPECTRE_WIN11_DI_SINI"
     ;;
   5)
-    IMG_NAME="Windows Server 2012"
-    ISO_URL="ISI_LINK_ISO_SERVER_2012_DI_SINI"
-    ;;
-  6)
-    IMG_NAME="Windows Server 2016"
+    IMG_NAME="Windows Server 2016 SERVERSTANDARD"
     ISO_URL="https://go.microsoft.com/fwlink/p/?LinkID=2195174&clcid=0x409&culture=en-us&country=US"
     ;;
-  7)
+  6)
     IMG_NAME="Windows Server 2019 SERVERSTANDARD"
     ISO_URL="https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US"
     ;;
-  8)
-    IMG_NAME="Windows Server 2022"
+  7)
+    IMG_NAME="Windows Server 2022 SERVERSTANDARD"
     ISO_URL="https://pastabillites.to/d/mqkzecgxo6ll?v=x5uwEViWLbfbwx3xBRf7V8hoDqvL9IZt9xOF7xYlpk9Vbe6Kh69MQFrufZ2T0Yuv9aD7MVM1U3ER_ew3cBlk0yV_tGjNUvbFC3QoEkJAAejcbjVr0hMkRv5VaDZpGCa5ua8YMTCjnznK4ElTc0PyYMEyptSaDvqOuLuSA-nuoG35sebOHHh2S2A5QSfTMbLTiyG0KNU45s8Wpwb9lHaTHvyd5NJgOkbpaF-iGFudaZCKiDQM-wJag2fb5AzD7vD8XhLY-Rs0LKWqBRXyAM05cZUr7zNE"
     ;;
-  9)
+  8)
     IMG_NAME="Windows Server 2025 SERVERSTANDARD"
     ISO_URL="https://oemsoc.download.prss.microsoft.com/dbazure/X23-81958_26100.1742.240906-0331.ge_release_svc_refresh_SERVER_OEMRET_x64FRE_en-us.iso_909fa35d-ba98-407d-9fef-8df76f75e133?t=34b8db0f-439b-497c-86ce-ec7ceb898bb7&P1=102816956391&P2=601&P3=2&P4=pG1WoVpBKlyWcmfj%2bt1gYgkTsP4At28ch8mG7vIQm%2fT4elz5v2ZQ3eKAN8%2fFjb1yaa4npBaABURtnI8YmrDv8p0VJmYpLCIUQ0FHEFR4IFiPgtvzwAAI8oNdiEl%2b2uM7MN8Gaju8BvIVgHRl%2fRxq0HFgrFoEGmvHZU4jY0RFsYAaHliUinDUzdVfT0IPwyWqNUJXZTSfguyphv8XZx8OQsBy3zwBp7tNHsKl36ZO2JdZK%2fyPY7QTpAr5ccazUPEa40ALhYRBJXxlQb1F0OeO7kHhW7DKK5D4Wpt5WbpjFn8MqcZBX3%2fQI6WAwzDSKIck7jYL7bYdl2ufoMRrFZrxxw%3d%3d"
     ;;
