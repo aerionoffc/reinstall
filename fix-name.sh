@@ -38,11 +38,11 @@ WEB_PORT="2080"
 case $pilihan in
   1)
     IMG_NAME="Windows 10 Pro"
-    ISO_URL="https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso?t=b872906d-af1a-4727-8cc0-523606a19bb3&P1=1774962609&P2=601&P3=2&P4=qQj5zjt%2bvhOMjsK6fMMmyh2E12HTK8GtshwkPgnWsZ0yW7DwyKloDBDeFHPTMCq5x%2ftxS1%2f%2f73xMl%2fhvyp1S26HbQyAn2WIBOLiMZsGYjAYmHacAbZxO%2frsi42e63cm7IcwAjiiBxGuhXljDPei1tSsBM%2bG%2fONlpFZezgBXd4kpjNMfd%2fFVenv38HQMJ644rFazmHoIWB8FJDFDKye4ViLwobJsAzFUjrL2lXS3z3fMATXn6FfR1igbPd7O6BS4uP7FbmgDiyCjxPVDBRT25wJAdUzelkKZBcft0Vprb9aD%2bXbDYQ9gB5mAor21blwa9qiPcusCx6TOTKMkcpAc%2fTQ%3d%3d"
+    ISO_URL="http://213.163.205.136/win10.iso"
     ;;
   2)
     IMG_NAME="Windows 11 Pro"
-    ISO_URL="https://software.download.prss.microsoft.com/dbazure/Win11_25H2_English_x64_v2.iso?t=2b7442b3-845c-42f6-b2f5-c6fdaeb1b6cc&P1=1774962652&P2=601&P3=2&P4=lC6XE5Jx4f%2fI0h49hHjViR56DfnNggOm7ofiHL6I1PliMghX%2bOmI%2fjaLymvI02tIPMfwGaC0M5tE39NvddVIJD0mcSnvufrlbM650Q6z0pxxykZxVivENOLpdJ0AvO1v5IiVFX9Y2qQ0aBv43lY5iklc6t9NNhTKvD4lgWy7hrpuJKpAPJuLX7xQ3cGSXbJ2vMMwOugQwpZtK50GcIcsUCLTAxY60zuLEIvFhZbIY56lftTDZPRuepFss9W9D9B8D1lYdzkUr5nfdnnz%2fOl%2ficSKsfFK4ZcFoJSGF9ZHDG%2fRQfBkA0ln%2fRUIJCjDm3cD4rt9h59iwLVPudXhPrfeGA%3d%3d"
+    ISO_URL="http://213.163.205.136/win11.iso"
     ;;
   3)
     IMG_NAME="Windows 10 Pro Ghost Soectre"
