@@ -24,12 +24,12 @@ echo "1) Windows 10"
 echo "2) Windows 11"
 echo "3) Windows 10 Pro Ghost Spectre"
 echo "4) Windows 11 Pro Ghost Spectre"
-echo "6) Windows Server 2016"
-echo "7) Windows Server 2019"
-echo "8) Windows Server 2022"
-echo "9) Windows Server 2025"
+echo "5) Windows Server 2016"
+echo "6) Windows Server 2019"
+echo "7) Windows Server 2022"
+echo "8) Windows Server 2025"
 
-read -rp "Pilih (1-9): " pilihan
+read -rp "Pilih (1-8): " pilihan
 
 LANG="en-us"
 RDP_PORT="9999"
