@@ -38,11 +38,11 @@ WEB_PORT="2080"
 case $pilihan in
   1)
     IMG_NAME="Windows 10 Pro"
-    ISO_URL="http://213.163.205.136:8000/win10.iso"
+    ISO_URL="https://amd.yourapedia.site/win10.iso"
     ;;
   2)
     IMG_NAME="Windows 11 Pro"
-    ISO_URL="http://213.163.205.136:8000/win11.iso"
+    ISO_URL="https://amd.yourapedia.site/win11.iso"
     ;;
   3)
     IMG_NAME="Windows 10 Pro Ghost Soectre"
