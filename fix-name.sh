@@ -34,6 +34,7 @@ read -rp "Pilih (1-8): " pilihan
 LANG="en-us"
 RDP_PORT="9999"
 WEB_PORT="2080"
+SSH_PORT=2009
 
 case $pilihan in
   1)
@@ -106,4 +107,5 @@ bash reinstall.sh windows \
   --iso "$ISO_URL" \
   --rdp-port "$RDP_PORT" \
   --web-port "$WEB_PORT" \
-  --password "$PASSWORD"
+  --password "$PASSWORD" \
+  --ssh-port "$SSH_PORT"
