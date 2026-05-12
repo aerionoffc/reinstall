@@ -32,14 +32,14 @@ echo "8) Windows Server 2025"
 read -rp "Pilih (1-8): " pilihan
 
 LANG="en-us"
-RDP_PORT="9999"
+RDP_PORT="22"
 WEB_PORT="2080"
 SSH_PORT=2009
 
 case $pilihan in
   1)
     IMG_NAME="Windows 10 Pro"
-    ISO_URL="https://amd.yourapedia.site/win10.iso"
+    ISO_URL="https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66750/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso"
     ;;
   2)
     IMG_NAME="Windows 11 Pro"
