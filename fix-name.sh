@@ -20,8 +20,8 @@ if [ "$input_key" != "$SECRET_KEY" ]; then
 fi
 
 echo -e "${CYAN}Select Windows Version:${NC}"
-echo "1) Windows 10"
-echo "2) Windows 11"
+echo "1) Windows 10 Pro"
+echo "2) Windows 11 Pro"
 echo "3) Windows 10 Pro Ghost Spectre"
 echo "4) Windows 11 Pro Ghost Spectre"
 echo "5) Windows Server 2016"
@@ -34,7 +34,7 @@ read -rp "Pilih (1-8): " pilihan
 LANG="en-us"
 RDP_PORT="22"
 WEB_PORT="2080"
-SSH_PORT=2009
+SSH_PORT="2009"
 
 case $pilihan in
   1)
@@ -85,7 +85,7 @@ if [[ "$setpass" =~ ^[Yy]$ ]]; then
   read -rsp "Masukkan password Administrator: " PASSWORD
   echo
 else
-  PASSWORD="SKYNEST#123"
+  PASSWORD="Orbital2202"
 fi
 
 echo -e "${RED}WARNING: Semua data akan terhapus.${NC}"
