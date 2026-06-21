@@ -32,6 +32,7 @@ echo "8) Windows Server 2025"
 read -rp "Pilih (1-8): " pilihan
 
 LANG="en-us"
+USERNAME="administrator"
 RDP_PORT="22"
 WEB_PORT="2080"
 SSH_PORT="2009"
@@ -107,5 +108,6 @@ bash reinstall.sh windows \
   --iso "$ISO_URL" \
   --rdp-port "$RDP_PORT" \
   --web-port "$WEB_PORT" \
+  --username "$USERNAME" \
   --password "$PASSWORD" \
   --ssh-port "$SSH_PORT"
