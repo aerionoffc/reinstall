@@ -40,7 +40,7 @@ SSH_PORT="2009"
 case $pilihan in
   1)
     IMG_NAME="Windows 10 Pro"
-    ISO_URL="https://ts.buzzheavier.com/d/mrdra63ozvh9?v=7QINMGY02V32PPfrtlZZWbTRTTex85F2On4kpSt6bzmdD1i6znelxLA9FT16qc52y_fWTdoucjTNyfswOLJ-4-wA6ZyaaDtqjthNVA55g4qKCs8McPlAbQpC89xoOUbW6-njR3bEEC340sSDm4JEW9kcCb-yUNs4G_n-KGm1j-HtTZSbMjICDetw"
+    ISO_URL="https://ts.buzzheavier.com/d/va1xb3uslslu?v=iFbV_qPDmWImS-P39UhxvP3O5mdyAMKW8WrgP9CVABMXx6hhrEzBARkG5GJHLTKy4pOzrKRjNf4hlkyBW_ZdHg-aPPHqVCr7jrRsSAtvoAS8YHyELf58U0AlA8pITceGHDaddZURZWzE9avZDTYJtwD5l3Ed5V0fv5GlXwOijec45A"
     ;;
   2)
     IMG_NAME="Windows 11 Pro"
