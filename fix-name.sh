@@ -24,8 +24,8 @@ echo "1) Windows 10 Pro"
 echo "2) Windows 11 Pro"
 echo "3) Windows 10 Pro Ghost Spectre"
 echo "4) Windows 11 Pro Ghost Spectre"
-echo "5) Windows Server 2016"
-echo "6) Windows Server 2019"
+echo "5) Tiny 10"
+echo "6) Tiny 11"
 echo "7) Windows Server 2022"
 echo "8) Windows Server 2025"
 
@@ -44,7 +44,7 @@ case $pilihan in
     ;;
   2)
     IMG_NAME="Windows 11 Pro"
-    ISO_URL="https://amd.yourapedia.site/win11.iso"
+    ISO_URL="https://ts.buzzheavier.com/d/dnwr1ggyglxj?v=K-CFSN-QSG4mNYm5K8ZY_gVCrceqw80ERpPtHQ5CmbWiL__WOLL3x2G0x5Fr25MLFPaDLfGe9MMFx_jY_rlBJRmd4kgLGNtb5n9p6De1UiVQwpdUKWCKxEZ4FsorUcNVH8WP711hy30IngXzifNCaGwArkCDNHGnfwyAXODgXVplBclu-G5DGcWP27Fw05CXEMAe8cYGau9rHoMkEeY5lQvL8vCXWPskZslypvmn-P-46OuQTZM"
     ;;
   3)
     IMG_NAME="Windows 10 Pro Ghost Soectre"
